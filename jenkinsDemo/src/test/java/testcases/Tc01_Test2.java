@@ -12,6 +12,6 @@ public void navigateToFlipkart() {
 		WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://www.flipkart.com/");
+	driver.get("https://www.myntra.com/");
 }
 }
