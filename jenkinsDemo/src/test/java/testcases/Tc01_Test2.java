@@ -8,10 +8,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Tc01_Test2 {
 	@Test
-public void navigateToFlipkart() {
+	public void navigateToFlipkart() {
 		WebDriverManager.chromedriver().setup();
-	WebDriver driver=new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.get("https://www.myntra.com/");
-}
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.com/");
+	}
 }
